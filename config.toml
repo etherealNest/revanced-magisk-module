@@ -6,18 +6,22 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[Music]
+[Music-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
+excluded-patches = "'Custom branding icon for YouTube Music'"
 integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "inotia00 ReVanced"
 arch = "arm64-v8a"
 build-mode = "module"
 
-[YouTube]
+[YouTube-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
+excluded-patches = "'Custom branding icon for YouTube'"
 integrations-source = "inotia00/revanced-integrations"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "inotia00 ReVanced"
 arch = "arm64-v8a"
 build-mode = "module"

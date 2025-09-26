@@ -9,7 +9,7 @@ parallel-jobs = 1
 [Music-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
-excluded-patches = "'Custom branding icon for YouTube Music'"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "inotia00 ReVanced"
@@ -19,7 +19,7 @@ build-mode = "module"
 [YouTube-Extended]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
-excluded-patches = "'Custom branding icon for YouTube'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "inotia00 ReVanced"
